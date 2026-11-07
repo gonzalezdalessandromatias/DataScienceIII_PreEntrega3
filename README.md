@@ -25,10 +25,13 @@ Modelo final seleccionado:SVM lineal, maximiza la separación de clases con el F
 
 ## Resultados
 
-modelo                  F1 macro (val)	accuracy (val)	segundos fit		
-Naive Bayes	               0.891	          0.892	           0.029
-Regresión Logística	       0.889	          0.889	           3.445
-**SVM lineal	               0.900	          0.901	           0.34**
+modelo                 -F1 macro (val) - accuracy (val) - segundos fit		
+
+Naive Bayes	           -    0.891	   -       0.892	    -       0.029
+
+Regresión Logística	    -   0.889	   -       0.889	      -     3.445
+
+**SVM lineal	          -     0.900	  -        0.901	    -       0.34**
 
 ## Análisis de errores
 Categorías que más cuestan: Sport y World entre sí, pero incluso se observa que las demas categorias son mas propensas a confundirse con las categorias World o Sport. Se confunden entre sí porque comparten vocabulario como:
